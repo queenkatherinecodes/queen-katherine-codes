@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #ED0CE2; /* Light pink theme */
+    --secondary-color: white; /* Light background color */
+    --text-color: #333; /* Light text color */
+  }
+  
+  body {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dark-mode {
+    --primary-color: #ED0CE2; /* Dark pink theme */
+    --secondary-color: black; /* Dark background color */
+    --text-color: white; /* Dark text color */
+  }
+
+  .global-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
